@@ -1,0 +1,815 @@
+﻿customer_id,customer_name,segment,postal_code,office size,industry
+AA-10315,Alex Avila,Consumer,27604,35,Research Industry
+AA-10375,Allen Armold,Consumer,18103,41,Legislative Office
+AA-10480,Andrew Allen,Consumer,48227,38,Medical Practice
+AA-10645,Anna Andreadi,Consumer,EC1A 9HF,20,Computer/Network Security
+AB-10015,Aaron Bergman,Consumer,1500,36,Medical Practice
+AB-10060,Adam Bellavance,Home Office,40475,2,Renewables/Environment
+AB-10105,Adrian Barton,Consumer,44035,41,Non-Profit/Volunteering
+AB-10150,Aimee Bixby,Consumer,6457,47,Legislative Office
+AB-10165,Alan Barnes,Consumer,3060,29,Fundraising
+AB-10255,Alejandro Ballentine,Home Office,60477,4,Restaurants
+AB-10600,Ann Blume,Corporate,43017,290,Primary/Secondary Education
+AC-10420,Alyssa Crouse,Corporate,90660,437,Non-Profit/Volunteering
+AC-10450,Amy Cox,Consumer,M4B 1B8,43,Religious Institutions
+AC-10615,Ann Chong,Corporate,103426,309,Events Services
+AC-10660,Anna Chung,Consumer,103426,10,Human Resources/HR
+AD-10180,Alan Dominguez,Home Office,94591,5,Restaurants
+AF-10870,Art Ferguson,Consumer,7100,13,Information Technology/IT
+AF-10885,Art Foster,Consumer,28205,21,Military Industry
+AG-10270,Alejandro Grove,Consumer,42104,20,Automotive
+AG-10300,Aleksandra Gannaway,Corporate,01030,359,Commercial Real Estate
+AG-10330,Alex Grayson,Consumer,1500,13,Medical Equipment
+AG-10390,Allen Goldenen,Consumer,10701,12,Pharmaceuticals
+AG-10495,Andrew Gjertsen,Corporate,37604,102,Hospitality
+AG-10525,Andy Gerbode,Corporate,8861,88,Law Enforcement
+AG-10675,Anna Gayman,Consumer,59801,41,Entertainment/Movie Production
+AG-10765,Anthony Garverick,Home Office,6824,3,Civic/Social Organization
+AG-10900,Arthur Gainer,Consumer,98198,49,Textiles
+AH-10030,Aaron Hawkins,Corporate,10367,354,Luxury Goods/Jewelry
+AH-10075,Adam Hart,Corporate,92627,287,Sports
+AH-10120,Adrian Hane,Home Office,100-0014,1,Accounting
+AH-10195,Alan Haines,Corporate,80112,55,Civic/Social Organization
+AH-10210,Alan Hwang,Consumer,91776,32,Pharmaceuticals
+AH-10465,Amy Hunt,Consumer,100022,49,Pharmaceuticals
+AH-10585,Angele Hood,Consumer,2031,11,Law Enforcement
+AH-10690,Anna HÃ¤berlin,Corporate,EC1A 9HF,370,Alternative Medicine
+AI-10855,Arianne Irving,Consumer,92691,44,Food/Beverages
+AJ-10780,Anthony Jacobs,Corporate,60025,145,Broadcast Media
+AJ-10795,Anthony Johnson,Corporate,44134,342,Food/Beverages
+AJ-10945,Ashley Jarboe,Consumer,95823,30,Food/Beverages
+AJ-10960,Astrea Jones,Consumer,80538,15,Legal Services
+AM-10360,Alice McCarthy,Corporate,39503,76,Health/Fitness
+AM-10705,Anne McFarland,Consumer,100-0014,43,Computer/Network Security
+AO-10810,Anthony O'Donnell,Corporate,103426,383,Marketing/Advertising/Sales
+AP-10720,Anne Pryor,Home Office,80906,4,Museums/Institutions
+AP-10915,Arthur Prichep,Consumer,48227,12,Primary/Secondary Education
+AR-10345,Alex Russell,Corporate,01030,481,Hospital/Health Care
+AR-10405,Allen Rosenblatt,Corporate,97756,79,Logistics/Procurement
+AR-10510,Andrew Roberts,Consumer,7501,33,Broadcast Media
+AR-10540,Andy Reiter,Consumer,28027,35,Recreational Facilities/Services
+AR-10570,Anemone Ratner,Consumer,M4B 1B8,28,Chemicals
+AR-10825,Anthony Rawles,Corporate,71854,494,Higher Education/Acadamia
+AS-10045,Aaron Smayling,Corporate,91761,85,Chemicals
+AS-10090,Adam Shillingsburg,Consumer,100-0014,41,Chemicals
+AS-10135,Adrian Shami,Home Office,60098,3,Political Organization
+AS-10225,Alan Schoenberger,Corporate,22801,296,Business Supplies/Equipment
+AS-10240,Alan Shonely,Consumer,80004,34,Oil/Energy/Solar/Greentech
+AS-10285,Alejandro Savely,Corporate,38134,114,Financial Services
+AS-10630,Ann Steele,Home Office,19805,4,Chemicals
+AT-10435,Alyssa Tate,Home Office,73034,1,Marketing/Advertising/Sales
+AT-10735,Annie Thurman,Consumer,48601,38,Publishing Industry
+AW-10840,Anthony Witt,Consumer,76021,33,Defense/Space
+AW-10930,Arthur Wiediger,Home Office,20010-010,5,Events Services
+AY-10555,Andy Yotov,Corporate,11865,130,Real Estate/Mortgage
+AZ-10750,Annie Zypern,Consumer,103426,37,Hospital/Health Care
+BB-10990,Barry Blumstein,Corporate,33437,184,Health/Fitness
+BB-11545,Brenda Bowman,Corporate,22153,144,Human Resources/HR
+BC-11125,Becky Castell,Home Office,100 013,1,Architecture/Planning
+BD-11320,Bill Donatelli,Consumer,74133,32,Furniture
+BD-11500,Bradley Drucker,Consumer,98103,48,Museums/Institutions
+BD-11560,Brendan Dodson,Home Office,EC1A 9HF,2,Hospital/Health Care
+BD-11605,Brian Dahlen,Consumer,54703,27,Sports
+BD-11620,Brian DeCherney,Consumer,71901,50,Transportation
+BD-11635,Brian Derr,Consumer,10367,25,Photography
+BD-11725,Bruce Degenhardt,Consumer,77705,21,Renewables/Environment
+BD-11770,Bryan Davis,Consumer,63122,45,Computer/Network Security
+BE-11335,Bill Eplett,Home Office,61604,4,Real Estate/Mortgage
+BE-11410,Bobby Elias,Consumer,2031,13,Research Industry
+BE-11455,Brad Eason,Home Office,7100,2,Information Technology/IT
+BF-10975,Barbara Fisher,Corporate,11865,422,Renewables/Environment
+BF-11005,Barry Franz,Home Office,M4B 1B8,5,Construction
+BF-11020,Barry FranzÃ¶sisch,Corporate,95037,356,Banking/Mortgage
+BF-11080,Bart Folk,Consumer,EC1A 9HF,47,Sports
+BF-11170,Ben Ferrer,Home Office,95687,4,Fundraising
+BF-11215,Benjamin Farhat,Home Office,20010-010,3,Management Consulting
+BF-11275,Beth Fritzler,Corporate,M4B 1B8,276,Fundraising
+BG-11035,Barry Gonzalez,Consumer,100022,11,Non-Profit/Volunteering
+BG-11695,Brooke Gillingham,Corporate,89115,186,Pharmaceuticals
+BG-11740,Bruce Geld,Consumer,1008,35,Furniture
+BH-11710,Brosina Hoffman,Consumer,29464,18,Food/Beverages
+BK-11260,Berenike Kampe,Consumer,28601,11,Political Organization
+BM-11140,Becky Martin,Consumer,53132,38,Chemicals
+BM-11575,Brendan Murry,Corporate,1500,226,Recreational Facilities/Services
+BM-11650,Brian Moss,Corporate,77340,262,International Trade/Development
+BM-11785,Bryan Mills,Consumer,85705,38,Hospitality
+BN-11470,Brad Norvell,Corporate,48126,94,Aviation/Aerospace
+BN-11515,Bradley Nguyen,Consumer,1040,46,Sports
+BO-11350,Bill Overfelt,Corporate,100-0014,235,Apparel/Fashion
+BO-11425,Bobby Odegard,Consumer,97301,36,Aviation/Aerospace
+BP-11050,Barry Pond,Corporate,01030,128,Newspapers/Journalism
+BP-11095,Bart Pistole,Corporate,13021,182,Marketing/Advertising/Sales
+BP-11155,Becky Pak,Consumer,100022,33,Chemicals
+BP-11185,Ben Peterman,Corporate,37075,52,Law Enforcement
+BP-11230,Benjamin Patterson,Consumer,EC1A 9HF,15,Information Technology/IT
+BP-11290,Beth Paige,Consumer,29483,49,Health/Fitness
+BS-11365,Bill Shonely,Corporate,10367,65,Business Supplies/Equipment
+BS-11380,Bill Stewart,Corporate,EC1A 9HF,166,Recreational Facilities/Services
+BS-11590,Brendan Sweed,Corporate,71111,144,Accounting
+BS-11665,Brian Stugart,Consumer,2031,36,Government Relations
+BS-11755,Bruce Stewart,Consumer,11520,42,Government Administration
+BS-11800,Bryan Spruell,Home Office,33319,5,Security/Investigations
+BT-11305,Beth Thompson,Home Office,80022,4,Retail Industry
+BT-11395,Bill Tyler,Corporate,43229,113,Consumer Electronics
+BT-11440,Bobby Trafton,Consumer,01030,24,Public Relations/PR
+BT-11485,Brad Thomas,Home Office,71901,4,Aviation/Aerospace
+BT-11530,Bradley Talbott,Home Office,44105,3,Legislative Office
+BT-11680,Brian Thompson,Consumer,7100,33,Legal Services
+BV-11245,Benjamin Venier,Corporate,53186,255,Restaurants
+BW-11065,Barry Weirich,Consumer,EC1A 9HF,23,Non-Profit/Volunteering
+BW-11110,Bart Watters,Corporate,2908,433,Museums/Institutions
+BW-11200,Ben Wallace,Consumer,100022,31,Security/Investigations
+CA-11965,Carol Adams,Corporate,10367,492,Apparel/Fashion
+CA-12055,Cathy Armstrong,Home Office,60004,2,Business Supplies/Equipment
+CA-12265,Christina Anderson,Consumer,90036,34,Capital Markets/Hedge Fund/Private Equity
+CA-12310,Christine Abelman,Corporate,52402,266,Consumer Electronics
+CA-12775,Cynthia Arntzen,Consumer,2908,23,Security/Investigations
+CB-12025,Cassandra Brandow,Consumer,43017,15,Apparel/Fashion
+CB-12415,Christy Brittain,Consumer,1500,38,Furniture
+CB-12535,Claudia Bergmann,Corporate,29730,178,Government Administration
+CB-15384,Carmen Buchanan,Home Office,6450,5,Translation/Localization
+CC-12100,Chad Cunningham,Home Office,19601,1,Computer/Network Security
+CC-12145,Charles Crestani,Consumer,71203,47,Architecture/Planning
+CC-12220,Chris Cortes,Consumer,67212,44,Translation/Localization
+CC-12370,Christopher Conant,Consumer,01030,41,Non-Profit/Volunteering
+CC-12430,Chuck Clark,Home Office,92563,2,Apparel/Fashion
+CC-12475,Cindy Chapman,Consumer,01030,25,Newspapers/Journalism
+CC-12550,Clay Cheatham,Consumer,33030,23,Automotive
+CC-12610,Corey Catlett,Corporate,100022,413,Banking/Mortgage
+CC-12670,Craig Carreira,Consumer,61107,47,Defense/Space
+CC-12685,Craig Carroll,Consumer,20010-010,11,Civic/Social Organization
+CD-11920,Carlos Daly,Consumer,92399,16,Information Technology/IT
+CD-11980,Carol Darley,Consumer,60004,19,Museums/Institutions
+CD-12280,Christina DeMoss,Consumer,110001,10,Judiciary
+CD-12790,Cynthia Delaney,Home Office,100 013,1,Public Relations/PR
+CG-12040,Catherine Glotzbach,Home Office,46203,1,Financial Services
+CG-12520,Claire Gute,Consumer,60610,27,Judiciary
+CH-12070,Cathy Hwang,Home Office,1008,4,Management Consulting
+CJ-11875,Carl Jackson,Corporate,103426,166,Restaurants
+CJ-12010,Caroline Jumper,Consumer,83704,18,Military Industry
+CK-12205,Chloris Kastensmidt,Consumer,17403,27,Entertainment/Movie Production
+CK-12325,Christine Kargatis,Home Office,27217,5,Legislative Office
+CK-12595,Clytie Kelty,Consumer,94509,15,Legislative Office
+CK-12760,Cyma Kinney,Corporate,60025,53,Broadcast Media
+CL-11890,Carl Ludwig,Consumer,94403,11,Religious Institutions
+CL-12565,Clay Ludtke,Consumer,33710,25,Renewables/Environment
+CL-12700,Craig Leslie,Home Office,110001,5,Food/Beverages
+CM-11815,Candace McMahon,Corporate,1500,255,Management Consulting
+CM-11935,Carlos Meador,Consumer,2031,10,Hospitality
+CM-12115,Chad McGuire,Consumer,71901,28,Business Supplies/Equipment
+CM-12160,Charles McCrossin,Consumer,98198,30,Capital Markets/Hedge Fund/Private Equity
+CM-12190,Charlotte Melton,Consumer,92630,46,Staffing/Recruiting
+CM-12235,Chris McAfee,Consumer,7100,31,Restaurants
+CM-12385,Christopher Martinez,Consumer,73071,12,Investment Banking/Venture
+CM-12445,Chuck Magee,Consumer,94061,38,Translation/Localization
+CM-12655,Corinna Mitchell,Home Office,98103,1,Biotechnology/Greentech
+CM-12715,Craig Molinari,Corporate,1008,75,Apparel/Fashion
+Co-12640,Corey-Lock,Consumer,77095,31,Construction
+CP-12085,Cathy Prescott,Corporate,90036,456,Aviation/Aerospace
+CP-12340,Christine Phan,Corporate,99207,461,Fundraising
+CR-12580,Clay Rozendal,Home Office,1500,3,Religious Institutions
+CR-12625,Corey Roper,Home Office,55407,1,Investment Banking/Venture
+CR-12730,Craig Reiter,Consumer,39503,27,Automotive
+CR-12820,Cyra Reiten,Home Office,2031,3,Sports
+CS-11845,Cari Sayre,Corporate,20010-010,399,Civil Engineering
+CS-11860,Cari Schnelling,Consumer,7100,37,Insurance
+CS-11950,Carlos Soltero,Consumer,73071,13,Telecommunications
+CS-12130,Chad Sievert,Consumer,95051,16,Real Estate/Mortgage
+CS-12175,Charles Sheldon,Corporate,M4B 1B8,385,Biotechnology/Greentech
+CS-12250,Chris Selesnick,Corporate,75043,425,Financial Services
+CS-12355,Christine Sundaresam,Consumer,43302,20,Civic/Social Organization
+CS-12400,Christopher Schild,Home Office,75061,5,Oil/Energy/Solar/Greentech
+CS-12460,Chuck Sachs,Consumer,2138,11,Recreational Facilities/Services
+CS-12490,Cindy Schnelling,Corporate,100 013,389,Commercial Real Estate
+CS-12505,Cindy Stewart,Consumer,98031,33,Political Organization
+CT-11995,Carol Triggs,Consumer,7100,50,Legislative Office
+CV-12295,Christina VanderZanden,Consumer,1500,36,Furniture
+CV-12805,Cynthia Voltz,Corporate,93030,185,Religious Institutions
+CW-11905,Carl Weiss,Home Office,32303,3,Newspapers/Journalism
+CY-12745,Craig Yedwab,Corporate,49201,400,Aviation/Aerospace
+DA-13450,Dianna Arnett,Home Office,10367,3,Non-Profit/Volunteering
+DB-12910,Daniel Byrd,Home Office,100 013,3,Legal Services
+DB-12970,Darren Budd,Corporate,7100,112,Telecommunications
+DB-13060,Dave Brooks,Consumer,22153,28,Accounting
+DB-13120,David Bremer,Corporate,76248,73,Human Resources/HR
+DB-13210,Dean Braden,Consumer,60188,41,Business Supplies/Equipment
+DB-13270,Deborah Brumfield,Home Office,48185,5,Sports
+DB-13360,Dennis Bolton,Home Office,1008,4,Museums/Institutions
+DB-13405,Denny Blanton,Consumer,10367,43,Photography
+DB-13555,Dorothy Badders,Corporate,20010-010,311,Fundraising
+DB-13615,Doug Bickford,Consumer,63116,34,Defense/Space
+DB-13660,Duane Benoit,Consumer,M4B 1B8,40,Veterinary
+DC-12850,Dan Campbell,Consumer,33433,24,Defense/Space
+DC-13285,Debra Catini,Consumer,60004,40,Health/Fitness
+DD-13570,Dorothy Dickinson,Consumer,1008,30,Research Industry
+DE-13255,Deanra Eno,Home Office,92530,1,Banking/Mortgage
+DF-13135,David Flashing,Consumer,EC1A 9HF,27,Restaurants
+DG-13300,Deirdre Greer,Corporate,20016,213,Non-Profit/Volunteering
+DH-13075,Dave Hallsten,Corporate,10367,432,Logistics/Procurement
+DH-13675,Duane Huffman,Home Office,20010-010,3,Information Technology/IT
+DJ-13420,Denny Joy,Corporate,19805,170,Translation/Localization
+DJ-13510,Don Jones,Corporate,64118,213,Pharmaceuticals
+DJ-13630,Doug Jacobs,Consumer,29730,36,Security/Investigations
+DK-12835,Damala Kotsonis,Corporate,55369,445,Food/Beverages
+DK-12895,Dana Kaydos,Consumer,01030,29,Public Relations/PR
+DK-12985,Darren Koutras,Consumer,77340,30,Legislative Office
+DK-13090,Dave Kipp,Consumer,27511,14,Political Organization
+DK-13150,David Kendrick,Corporate,78207,112,Health/Fitness
+DK-13225,Dean Katz,Corporate,22901,275,Fundraising
+DK-13375,Dennis Kane,Consumer,20010-010,15,Textiles
+DL-12865,Dan Lawera,Consumer,46514,46,Telecommunications
+DL-12925,Daniel Lacy,Consumer,95336,20,Higher Education/Acadamia
+DL-13315,Delfina Latchford,Consumer,80013,33,Retail Industry
+DL-13330,Denise Leinenbach,Consumer,100022,46,Civil Engineering
+DL-13495,Dionis Lloyd,Corporate,92404,257,Publishing Industry
+Dl-13600,Dorris liebe,Corporate,48601,317,Legislative Office
+DL-17024,Dennis Lange,Corporate,1008,117,Textiles
+DM-12955,Dario Medina,Corporate,100022,297,Legislative Office
+DM-13015,Darrin Martin,Consumer,7100,16,Biotechnology/Greentech
+DM-13345,Denise Monton,Corporate,20010-010,399,Luxury Goods/Jewelry
+DM-13525,Don Miller,Corporate,110001,437,Leisure/Travel
+DN-13690,Duane Noonan,Consumer,77573,43,Real Estate/Mortgage
+DO-13435,Denny Ordway,Consumer,72701,34,Veterinary
+DO-13645,Doug O'Connell,Consumer,7100,39,Airlines/Aviation
+DP-13000,Darren Powers,Consumer,83501,19,Accounting
+DP-13105,Dave Poirier,Corporate,20852,406,Apparel/Fashion
+DP-13165,David Philippe,Consumer,46544,40,Government Relations
+Dp-13240,Dean percer,Home Office,EC1A 9HF,3,Military Industry
+DP-13390,Dennis Pardue,Home Office,1008,1,Telecommunications
+DR-12880,Dan Reichenbach,Corporate,47362,341,Medical Equipment
+DR-12940,Daniel Raglin,Home Office,1008,5,Information Technology/IT
+DS-13030,Darrin Sayre,Home Office,60067,1,Hospital/Health Care
+DS-13180,David Smith,Corporate,83642,241,Civic/Social Organization
+DV-13045,Darrin Van Huff,Corporate,71203,248,Museums/Institutions
+DV-13465,Dianna Vittorini,Consumer,76706,16,Apparel/Fashion
+DW-13195,David Wiener,Corporate,100022,337,Fundraising
+DW-13480,Dianna Wilson,Home Office,94513,4,Translation/Localization
+DW-13540,Don Weiss,Consumer,98103,31,Logistics/Procurement
+DW-13585,Dorothy Wardle,Corporate,38109,254,Hospitality
+EA-14035,Erin Ashbrook,Corporate,30318,107,Architecture/Planning
+EB-13705,Ed Braxton,Corporate,29203,149,International Trade/Development
+EB-13750,Edward Becker,Corporate,80004,465,Food/Beverages
+EB-13840,Ellis Ballard,Corporate,32503,209,Computer/Network Security
+EB-13870,Emily Burns,Consumer,6824,32,Judiciary
+EB-13930,Eric Barreto,Consumer,11865,12,Sports
+EB-13975,Erica Bern,Corporate,33021,399,Security/Investigations
+EB-14110,Eugene Barchas,Consumer,100-0014,49,Recreational Facilities/Services
+EB-14170,Evan Bailliet,Consumer,11550,17,Aviation/Aerospace
+EC-14050,Erin Creighton,Consumer,20010-010,42,Restaurants
+ED-13885,Emily Ducich,Home Office,110001,1,Logistics/Procurement
+EG-13900,Emily Grady,Consumer,81001,48,Primary/Secondary Education
+EH-13765,Edward Hooks,Corporate,10367,158,Religious Institutions
+EH-13945,Eric Hoffmann,Consumer,19140,23,Biotechnology/Greentech
+EH-13990,Erica Hackney,Consumer,100022,31,Civil Engineering
+EH-14005,Erica Hernandez,Home Office,8401,4,Higher Education/Acadamia
+EH-14125,Eugene Hildebrand,Home Office,23464,3,Chemicals
+EH-14185,Evan Henry,Consumer,110001,45,Investment Banking/Venture
+EJ-13720,Ed Jacobs,Consumer,110001,30,Leisure/Travel
+EJ-14155,Eva Jacobs,Consumer,2740,19,Insurance
+EK-13795,Eileen Kiefer,Home Office,01030,2,Accounting
+EL-13735,Ed Ludwig,Home Office,13021,2,Higher Education/Acadamia
+EM-13810,Eleni McCrary,Corporate,11865,156,Automotive
+EM-13825,Elizabeth Moffitt,Corporate,100-0014,55,Broadcast Media
+EM-13960,Eric Murdock,Consumer,75220,21,Aviation/Aerospace
+EM-14065,Erin Mull,Consumer,49505,19,Health/Fitness
+EM-14095,Eudokia Martin,Corporate,55369,174,Research Industry
+EM-14140,Eugene Moren,Home Office,2031,4,Newspapers/Journalism
+EM-14200,Evan Minnotte,Home Office,2031,2,Sports
+EN-13780,Edward Nazzal,Consumer,10367,13,Staffing/Recruiting
+EP-13915,Emily Phan,Consumer,32839,37,Government Administration
+ER-13855,Elpida Rittenbach,Corporate,89502,120,Renewables/Environment
+ES-14020,Erica Smith,Consumer,92037,42,Accounting
+ES-14080,Erin Smith,Corporate,32127,356,Political Organization
+FA-14230,Frank Atkinson,Corporate,28806,461,Sports
+FC-14245,Frank Carlisle,Home Office,1008,1,Broadcast Media
+FC-14335,Fred Chung,Corporate,110001,227,Capital Markets/Hedge Fund/Private Equity
+FG-14260,Frank Gastineau,Home Office,85323,5,Information Technology/IT
+FH-14275,Frank Hawley,Corporate,95823,90,Airlines/Aviation
+FH-14350,Fred Harton,Consumer,11865,42,Chemicals
+FH-14365,Fred Hopkins,Corporate,14304,403,Religious Institutions
+FM-14215,Filia McAdams,Corporate,20010-010,434,Public Relations/PR
+FM-14290,Frank Merwin,Home Office,60440,4,Financial Services
+FM-14380,Fred McMath,Consumer,98103,46,Marketing/Advertising/Sales
+FO-14305,Frank Olsen,Consumer,42071,30,Defense/Space
+FP-14320,Frank Preis,Consumer,27217,43,Photography
+FW-14395,Fred Wasserman,Corporate,11865,413,Military Industry
+GA-14515,George Ashbrook,Consumer,EC1A 9HF,48,Civic/Social Organization
+GA-14725,Guy Armstrong,Consumer,72209,43,Alternative Medicine
+GB-14530,George Bell,Corporate,35601,126,Medical Practice
+GB-14575,Giulietta Baptist,Consumer,20010-010,14,Logistics/Procurement
+GD-14590,Giulietta Dortch,Corporate,41042,395,Alternative Medicine
+GG-14650,Greg Guthrie,Corporate,77301,486,Textiles
+GH-14410,Gary Hansen,Home Office,1500,3,Medical Practice
+GH-14425,Gary Hwang,Consumer,10550,39,Apparel/Fashion
+GH-14485,Gene Hale,Corporate,83201,403,Civil Engineering
+GH-14665,Greg Hansen,Consumer,7036,16,Apparel/Fashion
+GK-14620,Grace Kelly,Corporate,13021,85,Political Organization
+GM-14440,Gary McGarr,Consumer,92530,26,Apparel/Fashion
+GM-14455,Gary Mitchum,Home Office,46350,2,Chemicals
+GM-14500,Gene McClure,Consumer,98270,27,Military Industry
+GM-14680,Greg Matthias,Consumer,72762,22,Construction
+GM-14695,Greg Maxwell,Corporate,EC1A 9HF,100,Banking/Mortgage
+GP-14740,Guy Phonely,Corporate,84043,143,Human Resources/HR
+GR-14560,Georgia Rosenberg,Corporate,103426,404,Pharmaceuticals
+GT-14635,Grant Thornton,Corporate,33065,153,Religious Institutions
+GT-14710,Greg Tran,Consumer,20852,44,Transportation
+GT-14755,Guy Thornton,Consumer,98103,33,Banking/Mortgage
+GW-14605,Giulietta Weimer,Consumer,1008,16,Aviation/Aerospace
+GZ-14470,Gary Zandusky,Consumer,97030,20,Graphic Design/Web Design
+GZ-14545,George Zrebassa,Corporate,85301,188,Veterinary
+HA-14905,Helen Abelman,Consumer,80229,38,Commercial Real Estate
+HA-14920,Helen Andreada,Consumer,6484,37,Retail Industry
+HD-14785,Harold Dahlen,Home Office,20010-010,1,Apparel/Fashion
+HE-14800,Harold Engle,Corporate,110001,406,Financial Services
+HF-14995,Herbert Flentye,Consumer,20010-010,13,Food/Beverages
+HG-14845,Harry Greene,Consumer,7100,10,Museums/Institutions
+HG-14965,Henry Goldwyn,Corporate,42420,145,Insurance
+HG-15025,Hunter Glantz,Consumer,11865,48,Furniture
+HH-15010,Hilary Holden,Corporate,01030,354,Pharmaceuticals
+HJ-14875,Heather Jas,Home Office,10367,1,Pharmaceuticals
+HK-14890,Heather Kirkland,Corporate,91505,275,Chemicals
+HL-15040,Hunter Lopez,Consumer,75104,36,Accounting
+HM-14860,Harry Marie,Corporate,38109,133,Publishing Industry
+HM-14980,Henry MacAllister,Consumer,44052,28,Museums/Institutions
+HP-14815,Harold Pawlan,Home Office,90036,5,Public Relations/PR
+HR-14770,Hallie Redmond,Home Office,40475,2,Higher Education/Acadamia
+HR-14830,Harold Ryan,Corporate,27217,399,Photography
+HW-14935,Helen Wasserman,Corporate,84062,398,Oil/Energy/Solar/Greentech
+HZ-14950,Henia Zydlo,Consumer,100 013,37,Security/Investigations
+IG-15085,Ivan Gibson,Consumer,98661,15,Commercial Real Estate
+IL-15100,Ivan Liston,Consumer,1500,13,Broadcast Media
+IM-15055,Ionia McGrath,Consumer,2031,26,Translation/Localization
+IM-15070,Irene Maddox,Consumer,92691,49,Military Industry
+JA-15970,Joseph Airdo,Consumer,95823,19,Marketing/Advertising/Sales
+JB-15400,Jennifer Braxton,Corporate,6450,278,Environmental Services
+JB-15925,Joni Blumstein,Consumer,88220,13,Research Industry
+JB-16000,Joy Bell-,Consumer,01030,28,Business Supplies/Equipment
+JB-16045,Julia Barnett,Home Office,M4B 1B8,1,Alternative Medicine
+JC-15340,Jasper Cacioppo,Consumer,54703,32,Textiles
+JC-15385,Jenna Caffey,Consumer,1008,17,Health/Fitness
+JC-15775,John Castell,Consumer,11865,39,Publishing Industry
+JC-16105,Julie Creighton,Corporate,43055,125,Judiciary
+JD-15790,John Dryer,Consumer,78501,15,Museums/Institutions
+JD-15895,Jonathan Doherty,Corporate,19013,230,Legal Services
+JD-16015,Joy Daniels,Consumer,110001,45,Insurance
+JD-16060,Julia Dunbar,Consumer,42071,40,Computer/Network Security
+JD-16150,Justin Deggeller,Corporate,78666,372,Research Industry
+JE-15475,Jeremy Ellison,Consumer,44221,26,Newspapers/Journalism
+JE-15610,Jim Epp,Corporate,EC1A 9HF,113,Commercial Real Estate
+JE-15715,Joe Elijah,Consumer,10367,36,Human Resources/HR
+JE-15745,Joel Eaton,Consumer,32712,20,Public Relations/PR
+JE-16165,Justin Ellison,Corporate,63301,441,Government Administration
+JF-15190,Jamie Frazer,Consumer,95123,20,Apparel/Fashion
+JF-15295,Jason Fortune-,Consumer,M4B 1B8,39,Leisure/Travel
+JF-15355,Jay Fein,Consumer,44052,40,Events Services
+JF-15415,Jennifer Ferguson,Consumer,49201,17,Architecture/Planning
+JF-15490,Jeremy Farry,Consumer,90036,11,Civic/Social Organization
+JF-15565,Jill Fjeld,Consumer,20010-010,23,Consumer Electronics
+JG-15115,Jack Garza,Consumer,48126,29,Human Resources/HR
+JG-15160,James Galang,Consumer,2031,39,Computer/Network Security
+JG-15310,Jason Gross,Corporate,20010-010,442,Environmental Services
+JG-15805,John Grady,Corporate,19901,118,Health/Fitness
+JH-15430,Jennifer Halladay,Consumer,55122,44,Construction
+JH-15820,John Huston,Consumer,110001,31,Entertainment/Movie Production
+JH-15910,Jonathan Howell,Consumer,78207,27,Information Technology/IT
+JH-15985,Joseph Holt,Consumer,17403,15,Health/Fitness
+JH-16180,Justin Hirsh,Consumer,60610,30,Pharmaceuticals
+JJ-15445,Jennifer Jackson,Consumer,6824,25,Medical Equipment
+JJ-15760,Joel Jenkins,Home Office,45040,2,Hospitality
+JK-15205,Jamie Kunitz,Consumer,100 013,10,Fundraising
+JK-15325,Jason Klamczynski,Corporate,7100,209,Government Administration
+JK-15370,Jay Kimmel,Consumer,31204,20,Primary/Secondary Education
+JK-15625,Jim Karlsson,Consumer,2031,39,Military Industry
+JK-15640,Jim Kriz,Home Office,1752,2,Biotechnology/Greentech
+JK-15730,Joe Kamberova,Consumer,14304,13,Legal Services
+JK-16090,Juliana Krohn,Consumer,100022,18,Hospital/Health Care
+JK-16120,Julie Kriz,Home Office,75220,3,Aviation/Aerospace
+JL-15130,Jack Lebron,Consumer,10367,19,Sports
+JL-15175,James Lanier,Home Office,27707,3,Automotive
+JL-15235,Janet Lee,Consumer,EC1A 9HF,22,Aviation/Aerospace
+JL-15505,Jeremy Lonsdale,Consumer,30062,24,Primary/Secondary Education
+JL-15835,John Lee,Consumer,22901,36,Military Industry
+JL-15850,John Lucas,Consumer,42420,43,Leisure/Travel
+JM-13965,Joseph Mullins,Home Office,2148,2,Events Services
+JM-15250,Janet Martin,Consumer,60462,40,Leisure/Travel
+JM-15265,Janet Molinari,Corporate,78041,154,Automotive
+JM-15535,Jessica Myrick,Consumer,56301,36,Fundraising
+JM-15580,Jill Matthias,Consumer,11865,23,Research Industry
+JM-15655,Jim Mitchum,Corporate,62301,362,Human Resources/HR
+JM-15865,John Murray,Consumer,100-0014,23,Textiles
+JM-16195,Justin MacKendrick,Consumer,100022,39,Security/Investigations
+JO-15145,Jack O'Briant,Corporate,110001,413,Biotechnology/Greentech
+JO-15280,Jas O'Carroll,Consumer,22153,33,Medical Equipment
+JO-15550,Jesus Ocampo,Home Office,75007,3,Staffing/Recruiting
+JP-15460,Jennifer Patt,Corporate,EC1A 9HF,374,Legal Services
+JP-15520,Jeremy Pistek,Consumer,80112,46,Government Relations
+JP-16135,Julie Prescott,Home Office,11865,1,Higher Education/Acadamia
+JR-15670,Jim Radford,Consumer,55106,44,Photography
+JR-15700,Jocasta Rupert,Consumer,61107,33,Insurance
+JR-16210,Justin Ritter,Corporate,22901,320,Veterinary
+JS-15595,Jill Stevenson,Corporate,2740,83,Restaurants
+JS-15685,Jim Sink,Corporate,92646,189,Hospitality
+JS-15880,John Stevenson,Consumer,4401,17,Law Enforcement
+JS-15940,Joni Sundaresam,Home Office,33012,5,Alternative Medicine
+JS-16030,Joy Smith,Consumer,100-0014,16,Capital Markets/Hedge Fund/Private Equity
+JW-15220,Jane Waco,Corporate,77301,272,Architecture/Planning
+JW-15955,Joni Wasserman,Consumer,100 013,49,Construction
+JW-16075,Julia West,Consumer,55106,50,Photography
+KA-16525,Kelly Andreada,Consumer,20010-010,17,Fundraising
+KB-16240,Karen Bern,Corporate,46060,289,Chemicals
+KB-16315,Karl Braun,Consumer,13601,12,Translation/Localization
+KB-16405,Katrina Bavinger,Home Office,110001,4,Research Industry
+KB-16585,Ken Black,Corporate,34952,67,Religious Institutions
+KB-16600,Ken Brennan,Corporate,77340,136,Pharmaceuticals
+KC-16255,Karen Carlisle,Corporate,80229,471,Consumer Electronics
+KC-16540,Kelly Collister,Consumer,98103,24,Health/Fitness
+KC-16675,Kimberly Carter,Corporate,91360,425,Primary/Secondary Education
+KD-16270,Karen Daniels,Consumer,85364,31,Political Organization
+KD-16345,Katherine Ducich,Consumer,40475,50,Non-Profit/Volunteering
+KD-16495,Keith Dawkins,Corporate,55433,239,Entertainment/Movie Production
+KD-16615,Ken Dana,Corporate,110001,373,Hospitality
+KE-16420,Katrina Edelman,Corporate,100 013,154,Airlines/Aviation
+KF-16285,Karen Ferguson,Home Office,M4B 1B8,1,Food/Beverages
+KH-16330,Katharine Harms,Corporate,1008,55,Environmental Services
+KH-16360,Katherine Hughes,Consumer,6824,38,Transportation
+KH-16510,Keith Herrera,Consumer,27514,29,Legal Services
+KH-16630,Ken Heidel,Corporate,76903,124,Graphic Design/Web Design
+KH-16690,Kristen Hastings,Corporate,68104,316,Alternative Medicine
+KL-16555,Kelly Lampkin,Corporate,10024,153,Business Supplies/Equipment
+KL-16645,Ken Lonsdale,Consumer,29464,36,Financial Services
+KM-16225,Kalyca Meade,Corporate,85635,189,Recreational Facilities/Services
+KM-16375,Katherine Murray,Home Office,32137,3,Health/Fitness
+KM-16660,Khloe Miller,Consumer,EC1A 9HF,31,Restaurants
+KM-16720,Kunst Miller,Consumer,37211,30,Religious Institutions
+KM-19482,Kelsey McNeillie,Consumer,01030,48,Events Services
+KM-21540,Krystian Marshall,Consumer,22153,20,Primary/Secondary Education
+KN-16390,Katherine Nockton,Corporate,27534,251,Legal Services
+KN-16450,Kean Nguyen,Corporate,100 013,55,Staffing/Recruiting
+KN-16705,Kristina Nunn,Home Office,103426,5,Financial Services
+KS-16300,Karen Seio,Corporate,2031,239,Newspapers/Journalism
+KT-16465,Kean Takahito,Consumer,90805,17,Environmental Services
+KT-16480,Kean Thornton,Consumer,73034,48,Fundraising
+KW-16435,Katrina Willman,Consumer,84604,33,Aviation/Aerospace
+KW-16570,Kelly Williams,Consumer,110001,31,Food/Beverages
+LA-16780,Laura Armstrong,Corporate,45231,122,Religious Institutions
+LB-16735,Larry Blacks,Consumer,63301,29,Military Industry
+LB-16795,Laurel Beltran,Home Office,100-0014,4,Entertainment/Movie Production
+LC-16870,Lena Cacioppo,Consumer,46614,44,Commercial Real Estate
+LC-16885,Lena Creighton,Consumer,46203,33,Translation/Localization
+LC-16930,Linda Cazamias,Corporate,83301,148,Primary/Secondary Education
+LC-16960,Lindsay Castell,Home Office,M4B 1B8,5,Chemicals
+LC-17050,Liz Carlisle,Consumer,10367,33,Security/Investigations
+LC-17140,Logan Currie,Consumer,87505,15,Environmental Services
+LD-16855,Lela Donovan,Corporate,110001,454,Sports
+LD-17005,Lisa DeCherney,Consumer,2886,11,Capital Markets/Hedge Fund/Private Equity
+LE-16810,Laurel Elliston,Consumer,44221,23,Hospitality
+LF-17185,Luke Foster,Consumer,80229,11,Non-Profit/Volunteering
+LH-16750,Larry Hughes,Consumer,32771,43,Photography
+LH-16900,Lena Hernandez,Consumer,75061,19,Government Relations
+LH-17020,Lisa Hazard,Consumer,55122,37,Furniture
+LH-17155,Logan Haushalter,Consumer,32725,26,Investment Banking/Venture
+LL-16840,Lauren Leatherbury,Consumer,2895,11,Government Relations
+LM-17065,Liz MacKendrick,Consumer,79907,42,Political Organization
+LO-17170,Lori Olson,Corporate,EC1A 9HF,218,Restaurants
+LP-17080,Liz Pelletier,Consumer,10024,48,International Trade/Development
+LP-17095,Liz Preis,Consumer,92503,19,Health/Fitness
+LR-16915,Lena Radford,Consumer,71901,27,Military Industry
+LR-17035,Lisa Ryan,Corporate,103426,360,Food/Beverages
+LS-16945,Linda Southworth,Corporate,95610,63,Airlines/Aviation
+LS-16975,Lindsay Shagiari,Home Office,72401,4,Civic/Social Organization
+LS-17200,Luke Schmidt,Corporate,100022,304,Information Technology/IT
+LS-17230,Lycoris Saunders,Consumer,100022,41,Investment Banking/Venture
+LS-17245,Lynn Smith,Consumer,85023,48,Hospitality
+LT-16765,Larry Tron,Consumer,19805,24,Apparel/Fashion
+LT-17110,Liz Thompson,Consumer,76063,35,Consumer Electronics
+LW-16825,Laurel Workman,Corporate,97301,256,Renewables/Environment
+LW-16990,Lindsay Williams,Corporate,68801,257,Publishing Industry
+LW-17125,Liz Willingham,Consumer,100 013,46,Political Organization
+LW-17215,Luke Weiss,Consumer,01030,28,Banking/Mortgage
+MA-13441,Moria Alejandro,Corporate,79762,393,Recreational Facilities/Services
+MA-17560,Matt Abelman,Home Office,98502,2,Capital Markets/Hedge Fund/Private Equity
+MA-17995,Michelle Arnett,Home Office,100-0014,2,International Trade/Development
+MB-12932,Marco Biermann,Home Office,1008,2,Banking/Mortgage
+MB-17305,Maria Bertelson,Consumer,78550,14,Renewables/Environment
+MB-18085,Mick Brown,Consumer,83201,20,Veterinary
+MC-17275,Marc Crier,Consumer,EC1A 9HF,27,Environmental Services
+MC-17425,Mark Cousins,Corporate,94061,353,Restaurants
+MC-17575,Matt Collins,Consumer,6708,24,Recreational Facilities/Services
+MC-17590,Matt Collister,Corporate,103426,269,Capital Markets/Hedge Fund/Private Equity
+MC-17605,Matt Connell,Corporate,71111,308,Apparel/Fashion
+MC-17635,Matthew Clasen,Corporate,EC1A 9HF,340,Architecture/Planning
+MC-17845,Michael Chen,Consumer,46060,28,Translation/Localization
+MC-18100,Mick Crebagga,Consumer,43615,12,Legal Services
+MC-18130,Mike Caudle,Corporate,68701,352,Oil/Energy/Solar/Greentech
+MC-20256,Martha Clayton,Corporate,7002,138,Fundraising
+MD-17350,Maribeth Dona,Consumer,79605,11,Graphic Design/Web Design
+MD-17860,Michael Dominguez,Corporate,01030,174,Environmental Services
+ME-14715,Mike Engstrom,Home Office,98006,5,Automotive
+ME-17320,Maria Etezadi,Home Office,77536,3,Alternative Medicine
+ME-17725,Max Engle,Consumer,83605,34,Public Relations/PR
+ME-18010,Michelle Ellison,Corporate,01030,131,Furniture
+MF-17665,Maureen Fritzler,Corporate,100022,450,Civil Engineering
+MF-18250,Monica Federle,Corporate,2031,378,Government Relations
+MG-17650,Matthew Grinstein,Home Office,92563,3,Telecommunications
+MG-17680,Maureen Gastineau,Home Office,66062,2,Security/Investigations
+MG-17695,Maureen Gnade,Consumer,M4B 1B8,29,Medical Practice
+MG-17875,Michael Grace,Home Office,110001,4,Judiciary
+MG-17890,Michael Granlund,Home Office,91104,4,Commercial Real Estate
+MG-18145,Mike Gockenbach,Consumer,17403,18,Health/Fitness
+MG-18205,Mitch Gastineau,Corporate,1500,120,Staffing/Recruiting
+MH-17290,Marc Harrigan,Home Office,110001,2,Civic/Social Organization
+MH-17440,Mark Haberlin,Corporate,100-0014,282,Accounting
+MH-17455,Mark Hamilton,Consumer,100 013,34,Renewables/Environment
+MH-17620,Matt Hagelstein,Corporate,7100,225,Veterinary
+MH-17785,Maya Herman,Corporate,80013,461,Legislative Office
+MH-18025,Michelle Huthwaite,Consumer,M4B 1B8,29,Telecommunications
+MH-18115,Mick Hernandez,Home Office,6824,2,Government Relations
+MJ-15767,Mark Johnson ,Consumer,32127,45,Leisure/Travel
+MJ-17740,Max Jones,Consumer,80004,33,Telecommunications
+MK-17905,Michael Kennedy,Corporate,60441,454,Security/Investigations
+MK-18160,Mike Kennedy,Consumer,60188,43,Recreational Facilities/Services
+ML-17395,Marina Lichtenstein,Corporate,100-0014,379,Photography
+ML-17410,Maris LaWare,Consumer,20010-010,45,Hospitality
+ML-17755,Max Ludwig,Home Office,100-0014,4,Computer/Network Security
+ML-18040,Michelle Lonsdale,Corporate,10367,91,Entertainment/Movie Production
+ML-18265,Muhammed Lee,Consumer,20010-010,36,Banking/Mortgage
+MM-17260,Magdelene Morse,Consumer,10367,20,Consumer Electronics
+MM-17920,Michael Moore,Consumer,32303,35,Construction
+MM-18055,Michelle Moray,Consumer,100 013,42,Civic/Social Organization
+MM-18280,Muhammed MacIntyre,Corporate,87124,230,Construction
+MN-17935,Michael Nguyen,Consumer,59102,47,Computer/Network Security
+MO-17500,Mary O'Rourke,Consumer,19901,28,Publishing Industry
+MO-17800,Meg O'Connel,Home Office,84020,4,Public Relations/PR
+MO-17950,Michael Oakman,Consumer,103426,30,Pharmaceuticals
+MP-17470,Mark Packer,Home Office,92553,1,Chemicals
+MP-17965,Michael Paige,Corporate,70065,475,Law Enforcement
+MP-18175,Mike Pelletier,Home Office,80525,5,Entertainment/Movie Production
+MR-17545,Mathew Reese,Home Office,7109,1,Alternative Medicine
+MS-16761,Markus Seiler,Consumer,M4B 1B8,27,Telecommunications
+MS-17365,Maribeth Schnelling,Consumer,93534,17,Broadcast Media
+MS-17530,MaryBeth Skach,Consumer,110001,46,Consumer Electronics
+MS-17710,Maurice Satty,Consumer,7501,34,Fundraising
+MS-17770,Maxwell Schwartz,Consumer,48307,16,Biotechnology/Greentech
+MS-17830,Melanie Seite,Consumer,33068,29,Capital Markets/Hedge Fund/Private Equity
+MS-17980,Michael Stewart,Corporate,77095,162,International Trade/Development
+MT-17815,Meg Tillman,Consumer,85234,18,Photography
+MT-18070,Michelle Tran,Home Office,60188,2,Biotechnology/Greentech
+MV-17485,Mark Van Huff,Consumer,EC1A 9HF,14,Law Enforcement
+MV-18190,Mike Vittorini,Consumer,92037,30,Insurance
+MW-18220,Mitch Webber,Consumer,100 013,18,Logistics/Procurement
+MW-18235,Mitch Willingham,Corporate,11520,169,Sports
+MY-17380,Maribeth Yedwab,Corporate,98632,69,Veterinary
+MY-18295,Muhammed Yedwab,Corporate,100 013,467,Banking/Mortgage
+MZ-17335,Maria Zettner,Home Office,100 013,2,Retail Industry
+MZ-17515,Mary Zewe,Corporate,38134,83,Primary/Secondary Education
+NB-18580,Nicole Brennan,Corporate,EC1A 9HF,409,Museums/Institutions
+NB-18655,Nona Balk,Corporate,8401,248,Broadcast Media
+NC-18340,Nat Carroll,Consumer,22153,36,Security/Investigations
+NC-18415,Nathan Cano,Consumer,100 013,11,Renewables/Environment
+NC-18535,Nick Crebassa,Corporate,01030,494,Renewables/Environment
+NC-18625,Noah Childs,Corporate,103426,409,Legal Services
+ND-18370,Natalie DeCherney,Consumer,55124,35,Recreational Facilities/Services
+ND-18460,Neil Ducich,Corporate,EC1A 9HF,417,Insurance
+NF-18385,Natalie Fritzler,Consumer,8401,25,Investment Banking/Venture
+NF-18475,Neil FranzÃ¶sisch,Home Office,103426,5,Banking/Mortgage
+NF-18595,Nicole Fjeld,Home Office,56301,5,Textiles
+NG-18355,Nat Gilpin,Corporate,33445,493,Hospitality
+NG-18430,Nathan Gelder,Consumer,7090,30,Military Industry
+NH-18610,Nicole Hansen,Corporate,42071,315,Real Estate/Mortgage
+NK-18490,Neil Knudson,Home Office,8901,2,Luxury Goods/Jewelry
+NL-18310,Nancy Lomonaco,Home Office,100-0014,3,Staffing/Recruiting
+NM-18445,Nathan Mautz,Home Office,80634,4,Furniture
+NM-18520,Neoma Murray,Consumer,77095,37,Restaurants
+NP-17166,Nadine Patenaude,Corporate,71854,397,Government Relations
+NP-18325,Naresj Patel,Consumer,41042,32,Events Services
+NP-18670,Nora Paige,Consumer,1852,25,Banking/Mortgage
+NP-18685,Nora Pelletier,Home Office,89031,4,Accounting
+NP-18700,Nora Preis,Consumer,43229,49,Public Relations/PR
+NR-18550,Nick Radford,Consumer,10367,10,Logistics/Procurement
+NS-18505,Neola Schneider,Consumer,110001,43,Real Estate/Mortgage
+NS-18640,Noel Staavos,Corporate,91911,342,Oil/Energy/Solar/Greentech
+NW-18400,Natalie Webber,Consumer,110001,26,Logistics/Procurement
+NZ-18565,Nick Zandusky,Home Office,90805,5,Information Technology/IT
+ON-18715,Odella Nelson,Corporate,92374,153,Recreational Facilities/Services
+OT-18730,Olvera Toch,Consumer,36116,35,Events Services
+PA-19060,Pete Armstrong,Home Office,97756,2,Architecture/Planning
+PB-18805,Patrick Bzostek,Home Office,01030,5,Apparel/Fashion
+PB-19105,Peter BÃ¼hler,Consumer,80906,39,Construction
+PB-19150,Philip Brown,Consumer,60540,38,Consumer Electronics
+PB-19210,Phillip Breyer,Corporate,7100,199,Civic/Social Organization
+PC-18745,Pamela Coakley,Corporate,47362,470,Management Consulting
+PC-19000,Pauline Chand,Home Office,72701,2,Staffing/Recruiting
+PF-19120,Peter Fuller,Consumer,110001,25,Business Supplies/Equipment
+PF-19165,Philip Fox,Consumer,94509,18,International Trade/Development
+PF-19225,Phillip Flathmann,Consumer,80027,31,Renewables/Environment
+PG-18820,Patrick Gardner,Consumer,37130,28,Recreational Facilities/Services
+PG-18895,Paul Gonzalez,Consumer,78577,15,Newspapers/Journalism
+PH-18790,Patricia Hirasaki,Home Office,60126,4,Medical Equipment
+PJ-18835,Patrick Jones,Corporate,1500,331,Events Services
+PJ-19015,Pauline Johnson,Consumer,71203,47,Fundraising
+PK-18910,Paul Knutson,Home Office,60126,3,Capital Markets/Hedge Fund/Private Equity
+PK-19075,Pete Kriz,Consumer,97301,19,Architecture/Planning
+PL-18925,Paul Lucas,Home Office,7501,1,Military Industry
+PM-18940,Paul MacIntyre,Consumer,78539,46,Accounting
+PM-19135,Peter McVee,Home Office,46350,1,Political Organization
+PN-18775,Parhena Norris,Home Office,75150,1,Management Consulting
+PO-10289,Pelagio Ozuna,Home Office,20735,3,Research Industry
+PO-18850,Patrick O'Brill,Consumer,20852,49,Sports
+PO-18865,Patrick O'Donnell,Consumer,72701,13,Architecture/Planning
+PO-19180,Philisse Overcash,Home Office,91776,2,Recreational Facilities/Services
+PO-19195,Phillina Ober,Home Office,13601,3,Religious Institutions
+PP-18955,Paul Prost,Home Office,49201,3,Staffing/Recruiting
+PR-18880,Patrick Ryan,Consumer,100-0014,50,Legislative Office
+PS-18760,Pamela Stobb,Consumer,M4B 1B8,28,Non-Profit/Volunteering
+PS-18970,Paul Stevenson,Home Office,81001,3,Financial Services
+PS-19045,Penelope Sewall,Home Office,80525,3,Renewables/Environment
+PT-19090,Pete Takahito,Consumer,110001,34,Transportation
+PV-18985,Paul Van Hugh,Home Office,63301,3,Airlines/Aviation
+PW-19030,Pauline Webber,Corporate,89115,476,Business Supplies/Equipment
+PW-19240,Pierre Wener,Consumer,100-0014,42,Insurance
+QJ-19255,Quincy Jones,Corporate,60090,426,Aviation/Aerospace
+RA-19285,Ralph Arnett,Consumer,61701,48,Insurance
+RA-19885,Ruben Ausman,Corporate,95928,405,Accounting
+RA-19915,Russell Applegate,Consumer,60610,13,International Trade/Development
+RA-19945,Ryan Akin,Consumer,28027,28,Military Industry
+RB-19330,Randy Bradley,Consumer,100022,40,Museums/Institutions
+RB-19360,Raymond Buch,Consumer,37604,37,Non-Profit/Volunteering
+RB-19435,Richard Bierner,Consumer,20010-010,16,Furniture
+RB-19465,Rick Bensley,Home Office,6824,1,Religious Institutions
+RB-19570,Rob Beeghly,Consumer,8701,20,Fundraising
+RB-19645,Robert Barroso,Corporate,1008,172,Primary/Secondary Education
+RB-19705,Roger Barcio,Home Office,33710,4,Defense/Space
+RB-19795,Ross Baird,Home Office,98042,3,Religious Institutions
+RC-11417,Rochelle Carlson,Corporate,2149,411,Photography
+RC-17983,Rhonda Carlton,Corporate,7960,433,Recreational Facilities/Services
+RC-19825,Roy Collins,Consumer,97224,50,Airlines/Aviation
+RC-19960,Ryan Crowe,Consumer,78521,36,Legislative Office
+RD-19480,Rick Duston,Consumer,100022,41,Textiles
+RD-19585,Rob Dowd,Consumer,30605,21,Pharmaceuticals
+RD-19660,Robert Dilbeck,Home Office,27217,4,Aviation/Aerospace
+RD-19720,Roger Demir,Consumer,01030,38,Staffing/Recruiting
+RD-19810,Ross DeVincentis,Home Office,71111,3,Computer/Network Security
+RD-19900,Ruben Dartt,Consumer,93905,31,Biotechnology/Greentech
+RD-19930,Russell D'Ascenzo,Consumer,01030,40,Luxury Goods/Jewelry
+RE-19405,Ricardo Emerson,Consumer,110001,39,Marketing/Advertising/Sales
+RE-19450,Richard Eichhorn,Consumer,100022,47,Environmental Services
+RF-19345,Randy Ferguson,Corporate,103426,256,Restaurants
+RF-19735,Roland Fjeld,Consumer,22304,32,Banking/Mortgage
+RF-19840,Roy FranzÃ¶sisch,Consumer,3060,46,Museums/Institutions
+RG-14734,Rene Gerste,Corporate,2031,182,Textiles
+RH-19495,Rick Hansen,Consumer,92037,50,Biotechnology/Greentech
+RH-19510,Rick Huthwaite,Home Office,EC1A 9HF,3,Medical Equipment
+RH-19555,Ritsa Hightower,Consumer,100-0014,40,Events Services
+RH-19600,Rob Haberlin,Consumer,M4B 1B8,44,Architecture/Planning
+RK-19300,Ralph Kennedy,Consumer,37604,28,Management Consulting
+RL-19615,Rob Lucas,Consumer,60016,13,Religious Institutions
+RM-19127,Roxanne McGregor,Consumer,80122,27,Government Relations
+RM-19375,Raymond Messe,Consumer,2031,25,Commercial Real Estate
+RM-19675,Robert Marley,Home Office,76051,2,Staffing/Recruiting
+RM-19750,Roland Murray,Consumer,EC1A 9HF,33,Management Consulting
+RO-19780,Rose O'Brian,Consumer,97756,17,Oil/Energy/Solar/Greentech
+RP-19270,Rachel Payne,Corporate,43302,418,Political Organization
+RP-19390,Resi PÃ¶lking,Consumer,18103,22,Medical Equipment
+RP-19855,Roy Phan,Corporate,10367,134,Defense/Space
+RR-19315,Ralph Ritter,Consumer,100022,35,Research Industry
+RR-19525,Rick Reed,Corporate,10367,496,Religious Institutions
+RS-19420,Ricardo Sperren,Corporate,M4B 1B8,265,Entertainment/Movie Production
+RS-19765,Roland Schwarz,Corporate,19901,498,International Trade/Development
+RS-19870,Roy Skaria,Home Office,103426,1,Non-Profit/Volunteering
+RW-19540,Rick Wilson,Corporate,34952,97,Graphic Design/Web Design
+RW-19630,Rob Williams,Corporate,44105,234,Oil/Energy/Solar/Greentech
+RW-19690,Robert Waldorf,Consumer,60089,47,Furniture
+SA-20830,Sue Ann Reed,Consumer,77095,20,Judiciary
+SB-20170,Sarah Bern,Consumer,100-0014,37,Civil Engineering
+SB-20185,Sarah Brown,Consumer,2031,38,Accounting
+SB-20290,Sean Braxton,Corporate,88001,490,International Trade/Development
+SC-20020,Sam Craven,Consumer,EC1A 9HF,47,Security/Investigations
+SC-20050,Sample Company A,Home Office,84062,2,Environmental Services
+SC-20095,Sanjit Chand,Consumer,77340,33,Graphic Design/Web Design
+SC-20230,Scot Coram,Corporate,11865,256,Public Relations/PR
+SC-20260,Scott Cohen,Corporate,110001,148,Capital Markets/Hedge Fund/Private Equity
+SC-20305,Sean Christensen,Consumer,48227,23,Real Estate/Mortgage
+SC-20380,Shahid Collister,Consumer,110001,30,Automotive
+SC-20440,Shaun Chance,Corporate,37042,167,Broadcast Media
+SC-20575,Sonia Cooley,Consumer,11865,26,Graphic Design/Web Design
+SC-20680,Steve Carroll,Home Office,20010-010,4,Renewables/Environment
+SC-20695,Steve Chapman,Corporate,14701,355,Financial Services
+SC-20725,Steven Cartwright,Consumer,33319,50,Legislative Office
+SC-20770,Stewart Carmichael,Corporate,2920,362,Telecommunications
+SC-20800,Stuart Calhoun,Consumer,10367,15,Luxury Goods/Jewelry
+SC-20845,Sung Chung,Consumer,20010-010,28,Consumer Electronics
+SD-20485,Shirley Daniels,Home Office,73505,4,Renewables/Environment
+SE-20110,Sanjit Engle,Consumer,95823,17,Fundraising
+SF-20065,Sandra Flanagan,Consumer,4401,39,Transportation
+SF-20200,Sarah Foster,Consumer,60068,27,Airlines/Aviation
+SF-20965,Sylvia Foulston,Corporate,75007,358,Legal Services
+SG-20080,Sandra Glassco,Consumer,78577,13,International Trade/Development
+SG-20470,Sheri Gordon,Consumer,55125,47,Investment Banking/Venture
+SG-20605,Speros Goranitis,Consumer,11865,26,Public Relations/PR
+SG-20890,Susan Gilcrest,Corporate,103426,151,Capital Markets/Hedge Fund/Private Equity
+SH-19975,Sally Hughsby,Corporate,75034,211,Recreational Facilities/Services
+SH-20395,Shahid Hopkins,Consumer,72032,45,Financial Services
+SH-20635,Stefanie Holloman,Corporate,100022,247,Commercial Real Estate
+SJ-20125,Sanjit Jacobs,Home Office,49201,2,Fundraising
+SJ-20215,Sarah Jordon,Consumer,100-0014,15,Pharmaceuticals
+SJ-20500,Shirley Jackson,Consumer,34952,46,Furniture
+SK-12369,Sander Kristoffersen,Consumer,1500,42,Recreational Facilities/Services
+SK-19990,Sally Knutson,Consumer,1841,13,Government Relations
+SK-20116,Sille Krogh,Home Office,110001,2,Judiciary
+SL-20155,Sara Luxemburg,Home Office,47362,3,Medical Practice
+SM-20005,Sally Matthias,Consumer,29483,39,Consumer Electronics
+SM-20320,Sean Miller,Home Office,2031,1,Information Technology/IT
+SM-20905,Susan MacKendrick,Consumer,1008,36,Airlines/Aviation
+SM-20950,Suzanne McNair,Corporate,55016,496,Museums/Institutions
+SN-20560,Skye Norling,Home Office,43055,3,Non-Profit/Volunteering
+SN-20710,Steve Nguyen,Home Office,77095,4,Commercial Real Estate
+SO-20335,Sean O'Donnell,Consumer,41042,26,Events Services
+SP-20545,Sibella Parks,Corporate,91104,184,Furniture
+SP-20620,Stefania Perrino,Corporate,6824,368,Translation/Localization
+SP-20650,Stephanie Phelps,Corporate,63301,199,Luxury Goods/Jewelry
+SP-20860,Sung Pak,Corporate,47150,183,Sports
+SP-20920,Susan Pistek,Consumer,M4B 1B8,16,Computer/Network Security
+SR-20425,Sharelle Roach,Home Office,110001,2,Photography
+SR-20740,Steven Roelle,Home Office,33134,2,Telecommunications
+SS-20140,Saphhira Shifley,Corporate,48601,257,Capital Markets/Hedge Fund/Private Equity
+SS-20410,Shahid Shariari,Consumer,110001,25,Textiles
+SS-20515,Shirley Schmidt,Home Office,100022,2,Veterinary
+SS-20590,Sonia Sunley,Consumer,75023,46,Higher Education/Acadamia
+SS-20875,Sung Shariari,Consumer,75056,26,Political Organization
+ST-20530,Shui Tom,Consumer,10550,13,Human Resources/HR
+SU-20665,Stephanie Ulpright,Home Office,01030,4,Financial Services
+SV-20365,Seth Vernon,Consumer,75061,13,Chemicals
+SV-20785,Stewart Visinsky,Consumer,01030,35,Graphic Design/Web Design
+SV-20815,Stuart Van,Corporate,33012,96,Alternative Medicine
+SV-20935,Susan Vittorini,Consumer,103426,43,Oil/Energy/Solar/Greentech
+SW-20245,Scot Wooten,Consumer,100 013,43,Recreational Facilities/Services
+SW-20275,Scott Williamson,Consumer,63122,36,Architecture/Planning
+SW-20350,Sean Wendt,Home Office,01030,1,Retail Industry
+SW-20455,Shaun Weien,Consumer,100 013,38,Textiles
+SW-20755,Steven Ward,Corporate,97756,230,Museums/Institutions
+SZ-20035,Sam Zeldin,Home Office,13021,5,Sports
+TA-21385,Tom Ashbrook,Home Office,11865,5,Legal Services
+TB-21055,Ted Butterfield,Consumer,92553,10,Management Consulting
+TB-21175,Thomas Boland,Corporate,01030,204,Insurance
+TB-21190,Thomas Brumley,Home Office,38134,4,Non-Profit/Volunteering
+TB-21250,Tim Brockman,Consumer,7100,26,Political Organization
+TB-21280,Toby Braunhardt,Consumer,1008,29,Financial Services
+TB-21355,Todd Boyes,Corporate,93454,349,Sports
+TB-21400,Tom Boeckenhauer,Consumer,43123,41,Transportation
+TB-21520,Tracy Blumstein,Consumer,13501,16,Commercial Real Estate
+TB-21595,Troy Blackwell,Consumer,67846,23,Investment Banking/Venture
+TB-21625,Trudy Brown,Consumer,11865,18,International Trade/Development
+TC-20980,Tamara Chand,Corporate,100-0014,260,Commercial Real Estate
+TC-21145,Theresa Coyne,Corporate,10367,287,Biotechnology/Greentech
+TC-21295,Toby Carlisle,Consumer,100-0014,43,Photography
+TC-21475,Tony Chapman,Home Office,1008,1,Medical Equipment
+TC-21535,Tracy Collins,Home Office,85224,5,Medical Equipment
+TD-20995,Tamara Dahlen,Consumer,28027,17,Insurance
+TG-21310,Toby Gnade,Consumer,1008,23,Fundraising
+TG-21640,Trudy Glocke,Consumer,1852,48,Legislative Office
+TH-21100,Thea Hendricks,Consumer,10367,36,Entertainment/Movie Production
+TH-21115,Thea Hudgings,Corporate,M4B 1B8,137,Renewables/Environment
+TH-21235,Tiffany House,Corporate,76106,63,Political Organization
+TH-21550,Tracy Hopkins,Home Office,20877,4,Public Relations/PR
+TM-21010,Tamara Manning,Consumer,100 013,46,Alternative Medicine
+TM-21490,Tony Molinari,Consumer,110001,38,Recreational Facilities/Services
+TN-21040,Tanja Norvell,Home Office,75056,3,Aviation/Aerospace
+TP-21130,Theone Pippenger,Consumer,92627,27,Events Services
+TP-21415,Tom Prescott,Consumer,2031,10,International Trade/Development
+TP-21565,Tracy Poddar,Corporate,2031,249,Civil Engineering
+TR-21325,Toby Ritter,Consumer,91360,40,Primary/Secondary Education
+TS-21085,Thais Sissman,Consumer,71203,15,Military Industry
+TS-21160,Theresa Swint,Corporate,48911,259,Non-Profit/Volunteering
+TS-21205,Thomas Seio,Corporate,46350,377,Religious Institutions
+TS-21340,Toby Swindell,Consumer,29464,13,Legal Services
+TS-21370,Todd Sumrall,Corporate,43017,239,Investment Banking/Venture
+TS-21430,Tom Stivers,Corporate,M4B 1B8,185,Logistics/Procurement
+TS-21505,Tony Sayre,Consumer,M4B 1B8,41,Alternative Medicine
+TS-21610,Troy Staebel,Consumer,30328,36,Military Industry
+TS-21655,Trudy Schmidt,Consumer,M4B 1B8,13,Capital Markets/Hedge Fund/Private Equity
+TT-21070,Ted Trevino,Consumer,77590,14,Newspapers/Journalism
+TT-21220,Thomas Thornton,Consumer,100022,26,Recreational Facilities/Services
+TT-21265,Tim Taslimi,Corporate,7100,486,Translation/Localization
+TT-21460,Tonja Turnell,Home Office,8401,5,Consumer Electronics
+TW-21025,Tamara Willingham,Home Office,22153,1,Information Technology/IT
+TZ-21580,Tracy Zic,Consumer,48185,10,Automotive
+VB-21745,Victoria Brennan,Corporate,29483,212,International Trade/Development
+VD-21670,Valerie Dominguez,Consumer,1810,49,Events Services
+VF-21715,Vicky Freymann,Home Office,100022,1,Renewables/Environment
+VG-21790,Vivek Gonzalez,Consumer,70506,48,Aviation/Aerospace
+VG-21805,Vivek Grady,Corporate,11865,81,Fundraising
+VM-21685,Valerie Mitchum,Home Office,98661,5,Legal Services
+VM-21835,Vivian Mathis,Consumer,10367,32,Museums/Institutions
+VP-21730,Victor Preis,Home Office,90660,1,Transportation
+VP-21760,Victoria Pisteka,Corporate,2031,270,Information Technology/IT
+VS-17554,Villads Simonsen,Consumer,20010-010,34,Medical Equipment
+VS-21820,Vivek Sundaresam,Consumer,100022,18,Fundraising
+VT-21700,Valerie Takahito,Home Office,2031,2,Museums/Institutions
+VW-21775,Victoria Wilson,Corporate,60090,99,Alternative Medicine
+WB-21850,William Brown,Consumer,100 013,12,Legal Services
+XP-21865,Xylona Preis,Consumer,70506,45,Chemicals
+YC-21895,Yoseph Carroll,Corporate,33437,238,Recreational Facilities/Services
+YS-21880,Yana Sorensen,Corporate,98103,245,Entertainment/Movie Production
+ZC-21910,Zuschuss Carroll,Consumer,60462,17,Real Estate/Mortgage
+ZD-21925,Zuschuss Donatelli,Consumer,61107,18,Broadcast Media
+ZP-17066,Zurie Pelchat,Home Office,98031,3,Defense/Space
