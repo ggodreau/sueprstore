@@ -1,0 +1,36 @@
+{
+    "sub_category": {
+        "Accessories": 0.0,
+        "Chairs": 0.15,
+        "Phones": 0.1,
+        "Copiers": 0.2,
+        "Tables": 0.2,
+        "Binders": 0.1,
+        "Supplies": 0.05,
+        "Appliances": 0.3,
+        "Machines": 0.25,
+        "Bookcases": 0.2,
+        "Storage": 0.05,
+        "Furnishings": 0.05,
+        "Art": 0.1,
+        "Paper": 0.0,
+        "Envelopes": 0.0,
+        "Fasteners": 0.0,
+        "Labels": 0.0
+    },
+    "region": {
+        "East": 0.1,
+        "Oceania": 0.0,
+        "Central": 0.2,
+        "Africa": 0.0,
+        "West": 0.2,
+        "South": 0.0,
+        "Central Asia": 0.3,
+        "EMEA": 0.25,
+        "North Asia": 0.2,
+        "North": 0.0,
+        "Caribbean": 0.0,
+        "Southeast Asia": 0.25,
+        "Canada": 0.0
+    }
+}
