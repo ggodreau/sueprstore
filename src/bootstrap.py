@@ -36,8 +36,14 @@ def interpolate(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
         uids.add(n)
         return n
     order_uids = df['order_id'].apply(compile_uids)
-    max_uid = order_uids.max()
+    max_uid = order_uids.max() + 1
     min_uid = order_uids.min()
+    diff_uid = max_uid - min_uid
+    logging.debug(f'UID max: {max_uid} min: {min_uid} diff: '
+                  f'{diff_uid - df.shape[0]} {sys._getframe(  ).f_code.co_name}...')
+    if diff_uid <= (conf['desired_output_rows'] - df.shape[0]):
+        raise Exception(f'Unable to produce {conf["desired_output_rows"]}'
+                        f' with available number of UIDs')
     del order_uids
 
     # begin creating records
@@ -45,7 +51,7 @@ def interpolate(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
 
     for i in range(conf['desired_output_rows'] - df.shape[0]):
         n = i + df.shape[0]
-        if n%1000 == 0:
+        if n%500 == 0:
             logging.debug(f'Bootstrapping record number {n}')
         samp = df.sample(1, weights=df['index_rank'])
         out_df = out_df.append(generate_row(

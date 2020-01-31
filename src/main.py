@@ -116,6 +116,7 @@ if __name__ == '__main__':
 
     logging.basicConfig(
         level=logging.DEBUG,
+        filename='out.log',
         format='%(asctime)s %(message)s',
         datefmt='%m/%d/%Y %I:%M:%S %p')
     main()
