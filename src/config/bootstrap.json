@@ -1,0 +1,29 @@
+{
+    "desired_output_rows": 60001,
+    "order_date_low": -30,
+    "order_date_high": 30,
+    "ship_date_low": 6,
+    "ship_date_high": 90,
+    "region": {
+        "East": 0.1,
+        "Oceania": 0.0,
+        "Central": 0.2,
+        "Africa": 0.0,
+        "West": 0.2,
+        "South": 0.0,
+        "Central Asia": 0.3,
+        "EMEA": 0.25,
+        "North Asia": 0.2,
+        "North": 0.0,
+        "Caribbean": 0.0,
+        "Southeast Asia": 0.25,
+        "Canada": 0.0
+    },
+    "discounts": {
+      "2011": 0.0,
+      "2012": 0.03,
+      "2013": 0.05,
+      "2014": 0.08,
+      "2015": 0.08
+    }
+}
