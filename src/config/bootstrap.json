@@ -4,6 +4,7 @@
     "order_date_high": 30,
     "ship_date_low": 6,
     "ship_date_high": 90,
+    "shard_size": 10000,
     "region": {
         "East": 0.1,
         "Oceania": 0.0,

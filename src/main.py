@@ -25,6 +25,7 @@ products table - info about products, including some that were not ordered.
 Superstore xls pulled from here: https://community.tableau.com/thread/316509
 '''
 
+@timer
 def main():
     '''
     Transformation pipeline
