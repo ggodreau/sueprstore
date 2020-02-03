@@ -18,6 +18,8 @@ The dataset originally has 51,290 rows. In its transformed state (no bootstrappi
 
 This utility has the capability to bootstrap a configurable number of records with parameterized randomness. In other words, you can generate as many additional rows as you want, and the script is designed to keep equal weighting and distributions to the source dataset, effectively making the dataset more 'dense', without affecting trends, etc. Additionally, you can configure the amount of randomness you want on a per-feature basis, such as delays between order and ship date and the per-year discount trends. This can be configured within `src/config/bootstrap.json`.
 
+A previously run, boostrapped version of this dataset can be downloaded [here](https://drive.google.com/drive/u/1/folders/1_pZAlontzEolS7kGvepnoRWkTl9INqmJ).
+
 ## Dependencies
 
 You will need Python 3.5+, pandas, and scipy. Please be sure `which python`
