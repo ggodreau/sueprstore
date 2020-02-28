@@ -106,9 +106,14 @@ def normalize(dfs: Dict[str, DataFrame]):
     Normalize and link tables
     '''
     logging.info(f'Beginning normalization...')
-    normalize_orders(dfs['orders']).to_csv(os.path.join(DIR_OUTPUT, 'orders.csv'))
-    normalize_products(dfs['products']).to_csv(os.path.join(DIR_OUTPUT, 'products.csv'))
-    normalize_regions(dfs['regions'], gpc).to_csv(os.path.join(DIR_OUTPUT, 'regions.csv'))
+    # generate regions and regions join key to orders
+    regions, cjk = normalize_regions(dfs['regions'], gpc)
+    regions.to_csv(os.path.join(DIR_OUTPUT, 'regions.csv'), float_format='%.0f')
+    # pass regions join key into orders normalization
+    normalize_orders(dfs['orders'], cjk).to_csv(os.path.join(DIR_OUTPUT, 'orders.csv'), float_format='%.2f')
+    dfs['orders'].to_csv('./tmp_orders.csv')
+    normalize_products(dfs['products']).to_csv(os.path.join(DIR_OUTPUT, 'products.csv'), float_format='%.2f')
+    dfs['regions'].to_csv('./tmp_regions.csv')
     normalize_returns(dfs['returns']).to_csv(os.path.join(DIR_OUTPUT, 'returns.csv'))
     normalize_customers(dfs['customers']).to_csv(os.path.join(DIR_OUTPUT, 'customers.csv'))
     logging.info(f'Successfully wrote files to ./{DIR_OUTPUT}')

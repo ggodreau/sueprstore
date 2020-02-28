@@ -10,9 +10,10 @@ Series = NewType('Series', pd.Series)
 # Orders
 ########
 
-def normalize_orders(df: DataFrame) -> DataFrame:
+def normalize_orders(df: DataFrame, cjk: DataFrame) -> DataFrame:
     logging.debug(f'Normalizing data in {sys._getframe(  ).f_code.co_name}...')
     df.index.name = 'id'
+    df['region_id'] = cjk['region_id']
     logging.debug(f'Returned {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
     return df
 
@@ -44,12 +45,35 @@ def normalize_products(df: DataFrame) -> DataFrame:
 
 def normalize_regions(df: DataFrame, gpc) -> DataFrame:
     logging.debug(f'Normalizing data in {sys._getframe(  ).f_code.co_name}...')
-    res = df.copy().groupby(['region', 'country', 'state',\
+    res_gb = df.copy().groupby(['region', 'country', 'state',\
                              'city', 'salesperson']).max().reset_index()
-    res['postal_code'] = gpc(res)
-    res.set_index('region', inplace=True)
-    logging.debug(f'Returned {res.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
-    return res
+
+    # create order_id composite join table
+    dfoc = df.copy()
+    dfoc.to_csv('./tmp_dfoc.csv')
+    dfoid = pd.DataFrame({
+        'cjk': dfoc['region'] + dfoc['country'] + dfoc['state'] + dfoc['city'] + dfoc['salesperson'],
+        'orders_id': dfoc.index
+    })
+    dfoid['cjk'] = dfoid['cjk'].apply(lambda x: hash(x))
+
+    # create region_id composite join table
+    dfrgb = df.copy().groupby(['region', 'country', 'state', 'city', 'salesperson']).max().reset_index()
+    dfrid = pd.DataFrame({
+        'cjk': dfrgb['region'] + dfrgb['country'] + dfrgb['state'] + dfrgb['city'] + dfrgb['salesperson'],
+        'region_id': dfrgb.index
+    })
+    dfrid['cjk'] = dfrid['cjk'].apply(lambda x: hash(x))
+
+    # left join order_id to region_id to create composite join index
+    dfcjk = pd.merge(dfoid, dfrid, how='left', on='cjk').drop('cjk', axis=1)
+
+    # lookup postal codes and set index
+    dfrgb['postal_code'] = gpc(dfrgb)
+    dfrgb.index.name = 'id'
+    logging.debug(f'Returned {dfrgb.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
+    # return normalized regions df and composite join key df to orders table
+    return dfrgb, dfcjk
 
 #########
 # Returns

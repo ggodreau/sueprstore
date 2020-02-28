@@ -26,11 +26,6 @@ def interpolate(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
     df.sort_values('date_rank', inplace=True)
     df['index_rank'] = df.reset_index().index
 
-    # create weights array for ship mode sampling
-    ship_mode_unique_vals = df['ship_mode'].unique().tolist()
-    ship_mode_distribution = df['ship_mode'].value_counts() / df['ship_mode'].value_counts().sum()
-    ship_mode_distribution_list = ship_mode_distribution.tolist()
-
     # generate a set of order ids to enforce generated PK uniqueness
     uids = set()
     def compile_uids(x):
@@ -66,8 +61,6 @@ def interpolate(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
         samp = df.sample(1, weights=df['index_rank'])
         out_dict[n] = generate_row(
             samp,
-            ship_mode_unique_vals,
-            ship_mode_distribution_list,
             conf,
             min_uid,
             max_uid,
@@ -115,7 +108,6 @@ def interpolate(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
 
     logging.debug(f'Processed {df.shape[0] + conf["desired_output_rows"]} records in {sys._getframe(  ).f_code.co_name}...')
     compiled_df = pd.read_csv(os.path.join(DIR_OUTPUT, 'bootshard_compiled.csv'), index_col='id')
-    print(compiled_df.columns)
     return compiled_df
 
 
@@ -123,20 +115,20 @@ def interpolate(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
 # Helper Functions
 ##################
 
-def generate_row(df, ship_mode_unique_vals, ship_mode_distribution_list, conf, min_uid, max_uid, uids):
+def generate_row(df, conf, min_uid, max_uid, uids):
     # single row df
     samp = df
 
     od = generate_order_or_ship_date(samp['order_date'].values[0], conf['order_date_low'], conf['order_date_high'])
-    sd = generate_order_or_ship_date(od, conf['ship_date_low'], conf['ship_date_high'])
-    # oid = generate_order_id(samp['order_id'].values[0], od.year, max_uid, uids)['generated_order_id']
     oid = generate_order_id(samp['order_id'].values[0], od.year, min_uid, max_uid, uids)
-    sm = generate_ship_mode(ship_mode_unique_vals, ship_mode_distribution_list)
+    ship_low, ship_high, ship_mode = conf['ship_delay'][samp['category'].values[0]][samp['sub_category'].values[0]]
+    sd = generate_order_or_ship_date(od, ship_low, ship_high)
     dis, prof = generate_discount_and_profit(samp['discount'].values[0], od.year, conf).values()
 
     res = samp.copy()
     res['order_id'] = oid
-    res['ship_mode'] = sm
+    res['ship_mode'] = ship_mode
+    res['ship_date'] = sd
     res['discount'] = dis
     res['profit'] = prof
 
@@ -170,6 +162,7 @@ def generate_order_id(x, target_year, min_uid, max_uid, uids):
     return '-'.join(
         [prefix, str(target_year), str(get_uid(min_uid, max_uid, uids))])
 
+# TODO
 def generate_ship_mode(vals, dist):
     return np.random.choice(vals, p=dist)
 
