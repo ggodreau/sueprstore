@@ -47,12 +47,25 @@ def get_salesperson(df: DataFrame) -> Series:
 # Returns
 #########
 
-def get_return_date(df: DataFrame) -> Series:
-    logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
-    # using low=6 for assumption of 6 days from ship to receive shipment
-    # using 90 day return window as a reasonable company policy for returns
-    return pd.to_datetime(df['ship_date'], format="%Y-%m-%d") + \
-        pd.Timedelta(np.random.randint(low=6, high=90, size=1)[0], unit='D')
+def get_return_date(df: DataFrame, conf: Dict[Any, Any]) -> Series:
+    # logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
+    ship_date = df['ship_date']
+    order_date = df['order_date']
+    rd = []
+    for sd, od in zip(ship_date, order_date):
+        sd = pd.to_datetime(sd, format="%Y-%m-%d")
+        od = pd.to_datetime(od, format="%Y-%m-%d")
+        return_date = calculate_return_date(od, conf)
+        while return_date < sd:
+            return_date = calculate_return_date(od, conf)
+        rd.append(return_date)
+    return pd.Series(rd)
+
+def calculate_return_date(timestamp, conf):
+    return timestamp + \
+        pd.Timedelta(np.random.randint(low=conf['return_date_low'],
+                                       high=conf['return_date_high'],
+                                       size=1)[0], unit='D')
 
 def get_expon(n: int, s: int = 10) -> int:
     v: int = int(round(expon.rvs(loc=0, scale=n/s)))

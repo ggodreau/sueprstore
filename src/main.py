@@ -83,7 +83,7 @@ def transform(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
     out['product_cost_to_consumer'] = get_product_cost_to_consumer(df)
     out['country_code'] = get_country_code(df)
     out['salesperson'] = get_salesperson(df)
-    out['return_date'] = get_return_date(df)
+    out['return_date'] = get_return_date(out, conf)
     out['return_quantity'] = get_return_quantity(df)
     out['reason_returned'] = get_reason_returned(df)
     out['discount'] = get_discount(df)

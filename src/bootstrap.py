@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 from pprint import pprint
 from util.helper import timer
+from transform import get_return_date
 from typing import Dict, NewType, Any
 from config.config import DIR_DATA, DIR_CONFIG, DIR_OUTPUT
 
@@ -36,7 +37,7 @@ def interpolate(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
     max_uid = order_uids.max() + 1
     min_uid = order_uids.min()
     diff_uid = max_uid - min_uid
-    logging.debug(f'UID max: {max_uid} min: {min_uid} diff: '
+    logging.debug(f'UID min: {min_uid}, max: {max_uid}, diff: '
                   f'{diff_uid - df.shape[0]} {sys._getframe(  ).f_code.co_name}...')
     if diff_uid <= (conf['desired_output_rows'] - df.shape[0]):
         raise Exception(f'Unable to produce {conf["desired_output_rows"]}'
@@ -132,6 +133,7 @@ def generate_row(df, conf, min_uid, max_uid, uids):
     res['ship_date'] = sd
     res['discount'] = dis
     res['profit'] = prof
+    res['return_date'] = get_return_date(pd.DataFrame({'ship_date': [sd], 'order_date': [od]}), conf).values[0]
 
     return res
 
