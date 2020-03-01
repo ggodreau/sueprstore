@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import json
 from scipy.stats import expon
-from typing import Dict, NewType
+from typing import Dict, NewType, Any
 from config.config import DIR_DATA, DIR_CONFIG
 
 DataFrame = NewType('DataFrame', pd.DataFrame)
@@ -51,7 +51,7 @@ def get_return_date(df: DataFrame) -> Series:
     logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
     # using low=6 for assumption of 6 days from ship to receive shipment
     # using 90 day return window as a reasonable company policy for returns
-    return pd.to_datetime(df['ship_date']) + \
+    return pd.to_datetime(df['ship_date'], format="%Y-%m-%d") + \
         pd.Timedelta(np.random.randint(low=6, high=90, size=1)[0], unit='D')
 
 def get_expon(n: int, s: int = 10) -> int:
@@ -96,6 +96,54 @@ def get_discount(df: DataFrame) -> Series:
             discount_lookup['region'][r['region']]
         )
     return pd.Series(data=res, name='discount')
+
+def get_shifted_order_id(df: DataFrame, conf: Dict[Any, Any]) -> Series:
+    logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
+    y1 = df['order_id'].apply(lambda x: x.replace('-2011-', '-' + conf['y1_mapping'] + '-'))
+    y2 = y1.apply(lambda x: x.replace('-2012-', '-' + conf['y2_mapping'] + '-'))
+    y3 = y2.apply(lambda x: x.replace('-2013-', '-' + conf['y3_mapping'] + '-'))
+    y4 = y3.apply(lambda x: x.replace('-2014-', '-' + conf['y4_mapping'] + '-'))
+    y5 = y4.apply(lambda x: x.replace('-2015-', '-' + conf['y5_mapping'] + '-'))
+    return y5
+
+def get_shifted_order_date(df: DataFrame, conf: Dict[Any, Any]) -> Series:
+    logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
+
+    leap_year_clean = df['order_date'].apply(lambda x: x.replace('-02-29', '-02-28'))
+    y1 = leap_year_clean.apply(lambda x: x.replace('2011', conf['y1_mapping']))
+    y2 = y1.apply(lambda x: x.replace('2012', conf['y2_mapping']))
+    y3 = y2.apply(lambda x: x.replace('2013', conf['y3_mapping']))
+    y4 = y3.apply(lambda x: x.replace('2014', conf['y4_mapping']))
+    y5 = y4.apply(lambda x: x.replace('2015', conf['y5_mapping']))
+    return pd.to_datetime(y5, format="%Y-%m-%d")
+
+def get_shifted_ship_date(df: DataFrame, conf: Dict[Any, Any]) -> Series:
+    logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
+    leap_year_clean = df['ship_date'].apply(lambda x: x.replace('-02-29', '-02-28'))
+    y1 = leap_year_clean.apply(lambda x: x.replace('2011', conf['y1_mapping']))
+    y2 = y1.apply(lambda x: x.replace('2012', conf['y2_mapping']))
+    y3 = y2.apply(lambda x: x.replace('2013', conf['y3_mapping']))
+    y4 = y3.apply(lambda x: x.replace('2014', conf['y4_mapping']))
+    y5 = y4.apply(lambda x: x.replace('2015', conf['y5_mapping']))
+    return pd.to_datetime(y5, format="%Y-%m-%d")
+
+def get_shifted_return_date(df: DataFrame, conf: Dict[Any, Any]) -> Series:
+    logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
+    y1 = df['return_date'].apply(lambda x: x.replace('2011', conf['y1_mapping']))
+    y2 = y1.apply(lambda x: x.replace('2012', conf['y2_mapping']))
+    y3 = y2.apply(lambda x: x.replace('2013', conf['y3_mapping']))
+    y4 = y3.apply(lambda x: x.replace('2014', conf['y4_mapping']))
+    y5 = y4.apply(lambda x: x.replace('2015', conf['y5_mapping']))
+    return y5
+
+def get_shifted_date_rank(df: DataFrame, conf: Dict[Any, Any]) -> Series:
+    logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
+    y1 = df['date_rank'].apply(lambda x: x.replace('2011', conf['y1_mapping']))
+    y2 = y1.apply(lambda x: x.replace('2012', conf['y2_mapping']))
+    y3 = y2.apply(lambda x: x.replace('2013', conf['y3_mapping']))
+    y4 = y3.apply(lambda x: x.replace('2014', conf['y4_mapping']))
+    y5 = y4.apply(lambda x: x.replace('2015', conf['y5_mapping']))
+    return y5
 
 ###########
 # Customers

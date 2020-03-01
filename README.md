@@ -37,6 +37,7 @@ returns Python 3.5+.
 
 In `src/config` you will see the following configuration files:
 
+- `transform.json` - this currently sets mapping of source years (i.e. 2011) to output years (i.e. 2016). These must be string values. `y1_mapping` corresponds to 2011 in the source data set and `y5_mapping` corresponds to 2016 in the source data set. Use this to shift years so you can have a data set that always looks current to students.
 - `bootstrap.json` - this sets interpolation parameters during bootstrapping (i.e. number of resultant rows, tolerances for randomness, discount curves, etc.)
 - `config.py` - this contains global variables for relative directory links
 - `country_codes.json` - this contains a lookup of country codes and their ISO codes

@@ -126,6 +126,7 @@ def generate_row(df, conf, min_uid, max_uid, uids):
     dis, prof = generate_discount_and_profit(samp['discount'].values[0], od.year, conf).values()
 
     res = samp.copy()
+    res['order_date'] = od
     res['order_id'] = oid
     res['ship_mode'] = ship_mode
     res['ship_date'] = sd
@@ -155,7 +156,7 @@ def get_uid(min_id, max_id, uids):
 def generate_order_or_ship_date(x, date_low, date_high):
     if isinstance(x, pd.Timestamp):
         x = x.to_datetime64()
-    return x + pd.Timedelta(np.random.randint(low=date_low, high=date_high, size=1)[0], unit='D')
+    return x + pd.Timedelta(np.random.randint(low=date_low, high=date_high+1, size=1)[0], unit='D')
 
 def generate_order_id(x, target_year, min_uid, max_uid, uids):
     prefix, _, uid = x.split('-')

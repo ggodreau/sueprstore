@@ -35,7 +35,12 @@ def main():
     # p = pd.read_excel(input_file, sheet_name='People')
 
     logging.info(f'Reading in files from {DIR_DATA}...')
-    df = pd.read_excel(os.path.join(DIR_DATA, 'Global Superstore.xls'))
+    df = pd.read_excel(os.path.join(DIR_DATA, 'Global Superstore.xls'),
+                       dtype={
+                           'Order Date': 'str',
+                           'Ship Date': 'str'
+                       })
+
     # Barb's original work; used to determine the needed columns
     o = pd.read_csv(os.path.join(DIR_DATA, 'orders.csv'))
     p = pd.read_csv(os.path.join(DIR_DATA, 'products.csv'))
@@ -53,7 +58,9 @@ def main():
     conf_cols['cols']['returns'] = rt.columns.tolist()
     conf_cols['cols']['customers'] = c.columns.tolist()
 
-    df_transformed = transform(df)
+    with open(os.path.join(DIR_CONFIG, 'transform.json')) as f:
+        conf_transform: Dict[Any, Any] = json.loads(f.read())
+    df_transformed = transform(df, conf_transform)
     with open(os.path.join(DIR_CONFIG, 'bootstrap.json')) as f:
         conf_boot: Dict[Any, Any] = json.loads(f.read())
     df_bootstrapped = bootstrap(df_transformed, conf_boot)
@@ -63,12 +70,16 @@ def main():
     return
 
 @timer
-def transform(df: DataFrame) -> DataFrame:
+def transform(df: DataFrame, conf: Dict[Any, Any]) -> DataFrame:
     '''
     Modification of fields in-place
     '''
     logging.info(f'Beginning transformation...')
     out = df.copy()
+
+    out['order_id'] = get_shifted_order_id(df, conf)
+    out['order_date'] = get_shifted_order_date(df, conf)
+    out['ship_date'] = get_shifted_ship_date(df, conf)
     out['product_cost_to_consumer'] = get_product_cost_to_consumer(df)
     out['country_code'] = get_country_code(df)
     out['salesperson'] = get_salesperson(df)
