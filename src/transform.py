@@ -75,7 +75,10 @@ def get_return_quantity(df: DataFrame) -> Series:
     logging.debug(f'Transforming {df.shape[0]} records in {sys._getframe(  ).f_code.co_name}...')
     res: List[float] = []
     for i, r in df.iterrows():
-        res.append(get_expon(r['quantity']))
+        # modify the rate of return by s parameter
+        # higher s parameter is lower rate of return
+        # 24.65 is about a 5% rate of return, 50k out of 1M
+        res.append(get_expon(r['quantity'], s=24.655))
     return pd.Series(data=res, name='return_quantity')
 
 def get_reason_returned(df: DataFrame) -> Series:
